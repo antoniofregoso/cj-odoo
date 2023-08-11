@@ -1,15 +1,15 @@
-class Client{
+export class jsonRpcClient{
 
     constructor(url){
         this.url = url
     }
 
-    async #send(method, params){
+    async send(method, params){
         let payload = {
             method: 'POST',
             headers: {
+                'Origin':window.location.href,
                 'Content-Type': 'application/json',
-                'Access-Control-Allow-Origin': '*',
             },
             body:JSON.stringify({
                 jsonrpc: '2.0',
@@ -27,7 +27,7 @@ class Client{
     }
 
     call(service, method, ...args){
-        return this.#send("call", {"service":service, "method": method, "args":args})
+        return this.send("call", {"service":service, "method": method, "args":args})
     }
 }
 
