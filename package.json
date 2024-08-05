@@ -1,15 +1,22 @@
 {
-  "name": "bj-odoo",
-  "version": "1.0.0",
+  "name": "@buyerjourney/bj-odoo",
+  "version": "0.5.0",
   "description": "json-rpc connection for odoo",
-  "main": "src/index.js",
+  "main": "src/odooClient.js",
+  "module": "src/odooClient.js",
   "scripts": {
+    "prod": "esbuild src/odooClient.js --bundle --minify  --outfile=dist/odooClient.js",
+    "build": "esbuild src/odooClient.js --bundle  --outfile=dist/odooClient.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/antoniofregoso/bj-odoo.git"
   },
+  "keywords": [
+    "odoo",
+    "JSON-RPC"
+  ],
   "author": "Antonio Fregoso <antoniofregoso@protonmail.com>",
   "license": "GPL-3.0-or-later",
   "devDependencies": {
