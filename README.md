@@ -3,7 +3,7 @@ json-rpc connection for odoo
 ## Sponsors
 [<img src="https://www.conference.com.mx/web/image/website/3/logo/Conference?unique=cb769b7">](https://www.conference.com.mx/comercializacion-digital)
 
-## 
+## Methods
 1. login()
 2. count(object, ...args)
 3. create(object, ...args)

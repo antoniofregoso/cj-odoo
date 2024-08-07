@@ -13,6 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/antoniofregoso/bj-odoo.git"
   },
+  "homepage": "https://buyerjourney.ninja/odoo",
   "keywords": [
     "odoo",
     "JSON-RPC"
