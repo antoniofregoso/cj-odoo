@@ -4,14 +4,14 @@ json-rpc connection for odoo
 [<img src="https://www.conference.com.mx/web/image/website/3/logo/Conference?unique=cb769b7">](https://www.conference.com.mx/comercializacion-digital)
 
 ## Methods
-1. login()
-2. count(object, ...args)
-3. create(object, ...args)
-4. search(object, ...args)
-5. searchRead(object, ...args)
-6. read(object, ...args)
-7. update(object, ...args)
-8. delete(object, ...args)
+1. odoo.login()
+2. odoo.count(object, ...args)
+3. odoo.create(object, ...args)
+4. odoo.search(object, ...args)
+5. odoo.searchRead(object, ...args)
+6. odoo.read(object, ...args)
+7. odoo.update(object, ...args)
+8. odoo.delete(object, ...args)
 
 ## Installation
 ```

@@ -1,6 +1,6 @@
 {
   "name": "@buyerjourney/bj-odoo",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "json-rpc connection for odoo",
   "main": "src/odooClient.js",
   "module": "src/odooClient.js",
