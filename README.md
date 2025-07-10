@@ -1,7 +1,5 @@
-# bj-odoo
+# cj-odoo
 json-rpc connection for odoo
-## Sponsors
-[<img src="https://www.conference.com.mx/web/image/website/3/logo/Conference?unique=cb769b7">](https://www.conference.com.mx/comercializacion-digital)
 
 ## Methods
 1. odoo.login()
@@ -15,13 +13,13 @@ json-rpc connection for odoo
 
 ## Installation
 ```
-npm i @buyerjourney/bj-odoo
+npm i @customerjourney/cj-odoo
 ```
 ## Configuration
 ```json
 {
     "odoo":{
-        "host":"http://url",
+        "host":"https://url",
         "db":"odooDB",
         "port":8069,
         "username":"user",
@@ -56,8 +54,8 @@ async function createLead(props={}){
 ```
 
 ## Documentation 
-- [BuyerJourneyJS project](https://buyerjourney.ninja/).
-- [bj-components](https://buyerjourney.ninja/odoo).
-- [Get started](https://buyerjourney.ninja/get-started).
+- [CustomerJourneyJS project](https://customerjourney.ninja/).
+- [cj-odoo](https://customerjourney.ninja/documentation/odoo/odoo-client/).
+- [Get started](customerjourney.ninja/getting-started/).
 ## License
 bj-odoo is [GPL-3.0-or-later](./LICENSE).

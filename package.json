@@ -1,6 +1,6 @@
 {
-  "name": "@buyerjourney/bj-odoo",
-  "version": "0.5.1",
+  "name": "@customerjourney/cj-odoo",
+  "version": "0.6.0",
   "description": "json-rpc connection for odoo",
   "main": "src/odooClient.js",
   "module": "src/odooClient.js",
@@ -11,9 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antoniofregoso/bj-odoo.git"
+    "url": "git+https://github.com/antoniofregoso/cj-odoo.git"
   },
-  "homepage": "https://buyerjourney.ninja/odoo",
+  "homepage": "https://customerjourney.ninja/documentation/odoo/odoo-client/",
   "keywords": [
     "odoo",
     "JSON-RPC"

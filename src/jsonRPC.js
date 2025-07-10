@@ -18,6 +18,8 @@ export class jsonRpcClient{
                 params:params
             })        
         };
+
+        console.log("JSON RPC Client initialized with URL:", this.url);
         return fetch(this.url,payload)
             .then((response) => response.json())
             .then((data) => data.result)
