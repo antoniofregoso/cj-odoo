@@ -1,6 +1,6 @@
 {
   "name": "@customerjourney/cj-odoo",
-  "version": "0.6.0",
+  "version": "0.6.2",
   "description": "json-rpc connection for odoo",
   "main": "src/odooClient.js",
   "module": "src/odooClient.js",

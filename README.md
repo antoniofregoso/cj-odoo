@@ -1,6 +1,7 @@
 # cj-odoo
 json-rpc connection for odoo
-
+## CustumerJourney.js
+This library is part of the [CustumerJourney.js](https://customerjourney.ninja/) project. Vanilla JavaScript libraries optimized for creating sales funnels with hyper-personalized customer experience powered by artificial intelligence.
 ## Methods
 1. odoo.login()
 2. odoo.count(object, ...args)
@@ -59,3 +60,5 @@ async function createLead(props={}){
 - [Get started](customerjourney.ninja/getting-started/).
 ## License
 bj-odoo is [GPL-3.0-or-later](./LICENSE).
+## Sponsor
+[Become a CustumerJourney.js Sponsor](https://customerjourney.ninja/sponsor/).
