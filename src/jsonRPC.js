@@ -2,13 +2,15 @@ export class jsonRpcClient{
 
     constructor(url){
         this.url = url
+        console.log("JSON RPC Client initialized with URL:", this.url);
     }
 
     async send(method, params){
+        let origin = typeof window !== 'undefined' ? window.location.href : undefined;
         let payload = {
             method: 'POST',
             headers: {
-                'Origin':window.location.href,
+                ...(origin !== undefined ? { 'Origin': origin } : {}),
                 'Content-Type': 'application/json',
             },
             body:JSON.stringify({
@@ -16,10 +18,9 @@ export class jsonRpcClient{
                 id: Math.floor(Math.random() * 5000),
                 method: method,
                 params:params
-            })        
+            })
         };
 
-        console.log("JSON RPC Client initialized with URL:", this.url);
         return fetch(this.url,payload)
             .then((response) => response.json())
             .then((data) => data.result)

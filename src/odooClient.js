@@ -58,7 +58,7 @@ export class OdooClient{
 
 
     async update(object, ...args){
-        let res = await this.client.call("object","execute", this.db, this.uid, this.password, object, "write", id, args);
+        let res = await this.client.call("object","execute", this.db, this.uid, this.password, object, "write", args);
         return res;
     }
 
