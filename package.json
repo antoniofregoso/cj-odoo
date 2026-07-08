@@ -1,6 +1,6 @@
 {
   "name": "@customerjourney/cj-odoo",
-  "version": "0.6.2",
+  "version": "1.7.0",
   "description": "json-rpc connection for odoo",
   "type": "module",
   "main": "dist/odooClient.js",
@@ -20,7 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/antoniofregoso/cj-odoo.git"
   },
-  "homepage": "https://customerjourney.ninja/documentation/odoo/odoo-client/",
+  "homepage": "https://antoniofregoso.github.io/customerjourney/documentation/odoo/",
   "keywords": [
     "odoo",
     "JSON-RPC"
